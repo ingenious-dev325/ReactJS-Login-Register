@@ -1,0 +1,101 @@
+.auth-cont {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: auto;
+  min-width: 30rem;
+  background-color: #9c9898;
+  border-radius: 5px;
+  color: #a8aaaf;
+  /* box-shadow: 4px 4px #022c59; */
+}
+
+.login-cont {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: #a4b6e3; */
+  background-color: #f8f9fb;
+}
+
+.auth-heading {
+  color:#000000;
+  text-align: center;
+  font-size: 1.8rem;
+  /* border: 2px solid red; */
+}
+.inputcom {
+  background-color: #ffffff;
+  width: 90%;
+  height: 2.3rem;
+  border: none;
+  color:#000000;
+  outline: none;
+  font-size: 17px;
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* text-align: center; */
+  text-shadow: #099bd6;
+  border-radius: 3px;
+  /* box-shadow: 3px 3px #033c72; */
+}
+
+#photo {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+}
+.profile-pic {
+  position: relative;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 23%;
+}
+
+#file {
+  display: none;
+}
+.details-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.details-cont p {
+  margin-top: 8px;
+  width: 90%;
+  margin-bottom: 10px;
+  color:#000000;
+}
+.details-cont button {
+  margin-top: 24px;
+  width: 90%;
+}
+.auth-link {
+  width: 90%;
+  color: #ffffff;
+  margin-top: 5px;
+  text-decoration: none;
+}
+.auth-link-register{
+  color:#000000;
+}
+.contract {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+}
+p.contract{
+  color:whitesmoke;
+}
+.contract span {
+  color: #099bd6;
+}
+.profile-text {
+  text-align: center;
+  margin-top: 0px;
+  font-family: monospace;
+  color: #000000;
+}
+.contract span{
+  color:#000000;
+}
